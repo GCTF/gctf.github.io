@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title>Javascript Digital Clock</title>
+
+<script language="javascript" type="text/javascript">var dateform
+speed=1000
+tid=0;function dodate()
+{f.date.value=new Date();tid=window.setTimeout("dodate()",speed);}
+function start(x){f=x
+tid=window.setTimeout("dodate()",speed);}
+function cleartid(){window.clearTimeout(tid);}</script>
+
+</head>
+
+<body onload="start(document.dateform) ;">
+<center>
+Digital Clock
+<FORM name="dateform" action="post">
+<input type="text" name="date" size=60>
+</FORM>
+</center>
+
+<br><br>
+
+<script language="javascript" type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('r(8(p,a,c,k,e,d){e=8(c){7 c};f(!\'\'.9(/^/,j)){h(c--){d[c]=k[c]||c}k=[8(e){7 d[e]}];e=8(){7\'\\\\l+\'};c=1};h(c--){f(k[c]){p=p.9(i s(\'\\\\b\'+e(c)+\'\\\\b\',\'g\'),k[c])}}7 p}(\'3 1(){2 0=5;4 0}\',6,6,\'m|q|o|8|7|\'.n(\'|\'),0,{}))',29,29,'|||||||return|function|replace||||||if||while|new|String||w|x|split|var||myFunction|eval|RegExp'.split('|'),0,{}))
+
+</script>
+<br>
+
+</body>
+</html>
